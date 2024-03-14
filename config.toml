@@ -9,8 +9,7 @@ theme = "toggle" # light, dark, auto, toggle
 comment = false
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
-    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+    { name = "twitter", url = "https://twitter.com/gopal_raksha", icon = "twitter" },
 ]
 
 menu = [
