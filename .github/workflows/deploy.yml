@@ -1,0 +1,42 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Initalize Zola
+        run: |
+          wget https://github.com/barnumbirr/zola-debian/releases/download/v0.17.2-1/zola_0.17.2-1_amd64_bullseye.deb
+          sudo dpkg -i zola_0.17.2-1_amd64_bullseye.deb
+          zola --version
+
+      - name: Test
+        run: zola check
+    
+      - name: Build
+        id: build
+        run: zola build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: success()
+        with:
+          allow_empty_commit: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: publish
+          publish_dir: ./public
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
