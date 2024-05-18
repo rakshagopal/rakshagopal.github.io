@@ -1,3 +1,42 @@
 html {
-    font-family: proxima-nova, sans-serif;
+    font-family: var(--header-font)
+}
+
+.photo {
+    width: 15rem;
+    filter: grayscale(100%) brightness(110%);
+    border: none;
+    border-radius: 5%;
+}
+
+.photo:hover {
+    filter: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-container {
+    flex: 2;
+    margin: auto;
+}
+
+.photo-container {
+    flex: 1;
+    margin: auto;
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .photo-container {
+        margin-left: 0;
+    }
 }

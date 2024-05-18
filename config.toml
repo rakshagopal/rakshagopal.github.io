@@ -1,5 +1,6 @@
 base_url = "https://rakshagopal.github.io/"
 theme = "apollo"
+title = "raksha gopal"
 
 [extra]
 toc = true
@@ -10,9 +11,12 @@ comment = false
 
 socials = [
     { name = "twitter", url = "https://twitter.com/gopal_raksha", icon = "twitter" },
+    { name = "email", url = "mailto:raksha.gopal@graduateinstitute.ch", icon = "email"}
 ]
 
 menu = [
+    { name = "about", url = "/", weight = 10},
+    { name = "research", url = "/research", weight = 100 },
 
 ]
 
