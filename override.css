@@ -45,7 +45,6 @@ html {
 .research-topic div {
     position: relative;
     top: -50%; 
-    transform: translate(0%, 0%); 
     color: #000; 
     padding: 10px 20px; 
     font-size: 2rem;
@@ -74,6 +73,7 @@ html {
     }
 
     .research-container {
+        /*todo: use grid here*/
         display: flex;
         flex-direction: column;
     }
