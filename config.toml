@@ -11,13 +11,13 @@ comment = false
 
 socials = [
     { name = "twitter", url = "https://twitter.com/gopal_raksha", icon = "twitter" },
-    { name = "email", url = "mailto:raksha.gopal@graduateinstitute.ch", icon = "email"}
+    { name = "email", url = "mailto:raksha.gopal@graduateinstitute.ch", icon = "email"},
+    { name = "linkedin", url = "https://www.linkedin.com/in/raksha-gopal-phd/", icon = "linkedin"}
 ]
 
 menu = [
     { name = "about", url = "/", weight = 10},
     { name = "research", url = "/research", weight = 100 },
-
 ]
 
 stylesheets = [
