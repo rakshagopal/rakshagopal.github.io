@@ -6,7 +6,6 @@ html {
     width: 15rem;
     filter: grayscale(100%) brightness(110%);
     border: none;
-    border-radius: 5%;
 }
 
 .photo:hover {
@@ -30,6 +29,25 @@ html {
     text-align: right;
 }
 
+.research-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.research-topic {
+    display: flex;
+    flex-direction: column;
+    
+    flex-basis: 250px;
+}
+
+.research-topic img {
+    width: 25rem;;
+}
+
+
 @media (max-width: 800px) {
     .container {
         display: flex;
@@ -38,5 +56,14 @@ html {
 
     .photo-container {
         margin-left: 0;
+    }
+
+    .research-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .research-topic {
+        margin: 2rem 0;
     }
 }

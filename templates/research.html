@@ -1,0 +1,16 @@
+{% extends "section.html" %}
+
+{% block main_content %}
+    {% block title %}
+        {{ post_macros::page_header(title=section.title) }}
+    {% endblock title %}
+    
+    <div class="research-container">
+        {% for page in section.pages %}
+            <div class="research-topic" onclick="location.href='{{page.permalink}}'" style="cursor:pointer">
+                <img src="{{ page.extra.cover_image }}" />
+                <div class="overlay">{{ page.title }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock main_content %}

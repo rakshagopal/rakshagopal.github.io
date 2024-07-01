@@ -1,0 +1,9 @@
+{% extends "section.html" %}
+
+{% block main_content %}
+    {% block title %}
+        {{ post_macros::page_header(title=page.title) }}
+    {% endblock title %}
+
+    {{ page.content | safe }}
+{% endblock main_content %}
