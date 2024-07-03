@@ -84,6 +84,11 @@ html {
     }
 
     .research-topic div {
-        bottom: auto;
+       position: static;
+       visibility: visible;
+    }
+
+    .research-topic:hover img {
+        opacity: unset;
     }
 }
