@@ -47,7 +47,7 @@ html {
     position: relative;
     top: -50%; 
     color: var(--text-0); 
-    padding: 10px 20px; 
+    margin: 10px 20px; 
     font-size: 2rem;
     text-align: center;
     visibility: hidden;
@@ -62,6 +62,19 @@ html {
     visibility: visible;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 95vh;
+}
+
+.last-updated {
+    color: gray;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: auto;
+}
 
 @media (max-width: 800px) {
     .container {
@@ -77,6 +90,7 @@ html {
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 2rem;
     }
 
     .research-topic {
@@ -90,5 +104,11 @@ html {
 
     .research-topic:hover img {
         opacity: unset;
+    }
+
+    .last-updated {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
     }
 }
