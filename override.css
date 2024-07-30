@@ -73,7 +73,9 @@ html {
     color: gray;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     margin-top: auto;
+    font-size: 0.75rem;
 }
 
 @media (max-width: 800px) {
@@ -108,7 +110,6 @@ html {
 
     .last-updated {
         display: flex;
-        justify-content: center;
         margin-top: auto;
     }
 }
