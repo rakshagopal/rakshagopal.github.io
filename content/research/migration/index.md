@@ -1,5 +1,5 @@
 +++
-title = "Migration"
+title = "Gendering Survival from the Margins"
 weight = 1000
 template = "research_topic.html"
 +++
