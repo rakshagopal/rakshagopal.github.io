@@ -3,9 +3,13 @@ html {
 }
 
 .photo {
-    width: 15rem;
+    width: 100%; /* Make the image fill its container */
+    max-width: 15rem; /* Increased from 12rem to 15rem */
+    height: auto; /* Maintain aspect ratio */
     filter: grayscale(100%) brightness(110%);
     border: none;
+    border-radius: 8px; /* Slightly reduce border radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Reduce shadow */
 }
 
 .photo:hover {
@@ -15,18 +19,25 @@ html {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start; /* Change to flex-start to reduce space */
+    align-items: flex-start; /* Align items to the top */
+    gap: 0.5rem; /* Reduced from 1rem to 0.5rem */
+    max-width: 1200px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 0.5rem; /* Reduce horizontal padding */
 }
 
 .text-container {
     flex: 2;
-    margin: auto;
+    margin: 0; /* Remove auto margin */
 }
 
 .photo-container {
     flex: 1;
-    margin: auto;
+    margin: 0; /* Remove auto margin */
     text-align: right;
+    position: sticky; /* Make the image sticky */
+    top: 1rem; /* Reduce top spacing */
 }
 
 .research-container {
@@ -102,10 +113,17 @@ html {
     .container {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center; /* Center items on mobile */
+        gap: 0.25rem; /* Reduced gap for mobile */
     }
 
     .photo-container {
-        margin-left: 0;
+        position: static; /* Remove sticky positioning on mobile */
+        margin-bottom: 1rem; /* Reduce space below image on mobile */
+    }
+
+    .photo {
+        max-width: 12rem; /* Increased from 10rem to 12rem for mobile */
     }
 
     .research-container {
@@ -170,7 +188,6 @@ html {
     }
 }
 
-// Add this new rule for better text visibility
 .research-topic div span.primary-color {
     color: var(--primary-color); /* Use the primary color for the dot */
 }
