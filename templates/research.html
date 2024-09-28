@@ -4,14 +4,16 @@
 
 {% block main_content %}
     {% block title %}
-        {{ post_macros::page_header(title=section.title) }}
+        <div class="animated-header">
+            {{ post_macros::page_header(title=section.title) }}
+        </div>
     {% endblock title %}
     
     <div class="research-container">
         {% for page in section.pages %}
-            <div class="research-topic" onclick="location.href='{{ page.permalink }}'" style="cursor:pointer">
-                <img src="{{ custom::asset(page=page, ext='jpeg') }}" />
-                <div>{{ page.title }}<span class="primary-color" style="font-size:1.2em;">.</span></div>
+            <div class="research-topic" onclick="location.href='{{ page.permalink }}'">
+                <img src="{{ custom::asset(page=page, ext='jpeg') }}" alt="{{ page.title }}" />
+                <div>{{ page.title }}<span class="primary-color">.</span></div>
             </div>
         {% endfor %}
     </div>
