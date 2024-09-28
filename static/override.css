@@ -157,16 +157,17 @@ html {
 
     .research-topic div {
         position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        top: auto;
-        transform: none;
+        top: 50%;
+        transform: translate(-50%, -50%);
         opacity: 1;
         background-color: rgba(0, 0, 0, 0.7);
         color: #ffffff; /* Ensure text is white on mobile too */
         padding: 10px;
         font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .research-topic:hover img {
