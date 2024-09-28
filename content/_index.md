@@ -3,14 +3,35 @@ title = "Hello"
 
 [extra]
 photo = "raksha.jpeg"
-resume = "resume.pdf"
 +++
 
+# Welcome to My Page
 
-I am [Raksha](https://www.graduateinstitute.ch/discover-institute/raksha-gopal), a PhD candidate in International Relations and Political Science at the Geneva Graduate Institute in Switzerland. I research displacement, forced migrations, political economy, and gender in South Asia. 
+I am [**Raksha**](https://www.graduateinstitute.ch/discover-institute/raksha-gopal), a *PhD candidate* in **International Relations and Political Science** at the *Geneva Graduate Institute* in Switzerland. My research focuses on:
 
-Currently, I am a researcher on the project "[Gendering Survival from the Margins](https://graduateinstitute.ch/research-centres/gender-centre/gendering-survival-margins), funded by the Swiss National Science Foundation.
+- Displacement
+- Forced migrations
+- Political economy
+- Gender in South Asia
 
-I am also a writer, interested in issues of labour, care, motherhood, mobilities, and the materialities of everyday life.
+## Current Research
 
-Thank you for visiting!
+Currently, I am a researcher on the project:
+
+> "[**Gendering Survival from the Margins**](https://graduateinstitute.ch/research-centres/gender-centre/gendering-survival-margins)"
+
+This project is funded by the *Swiss National Science Foundation*.
+
+## Writing Interests
+
+As a writer, I'm passionate about exploring:
+
+- Labour
+- Care
+- Motherhood
+- Mobilities
+- Materialities of everyday life
+
+---
+
+*Thank you for visiting my page!*
