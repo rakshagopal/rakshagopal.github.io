@@ -1,5 +1,0 @@
-{% macro asset(page, ext) -%}
-{% for asset in page.assets -%}
-    {% if asset is ending_with(ext) -%}{{asset}}{% break -%}{% endif -%}
-{% endfor -%}
-{% endmacro -%}
