@@ -31,16 +31,30 @@
         }
         
         .profile {
-            text-align: center;
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
             margin-bottom: 40px;
+            text-align: left;
         }
         
         .profile img {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 20px;
+            flex-shrink: 0;
+        }
+
+        .profile-content {
+            flex-grow: 1;
+        }
+
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin: 0 5px;
         }
         
         h1, h2 {
@@ -76,39 +90,36 @@
 <body>
     <button class="theme-switch" onclick="toggleTheme()">Toggle Theme</button>
     <div class="profile">
-        <img src="static/raksha.jpeg" alt="Your Name">
-        <h1>Raksha Gopal</h1>
-        <p>PhD Student at the Geneva Graduate Institute</p>
-    </div>
-
-    <div class="section">
-        <h2>About Me</h2>
-        <p>I am a PhD student at the <a href="https://www.graduateinstitute.ch/discover-institute/raksha-gopal">Geneva Graduate Institute</a>, focusing on forced displacement and migration studies. My research interests include feminist international political economy, governance (local and international), and multi-method research design.</p>
-    </div>
-
-    <div class="section">
-        <h2>Research</h2>
-        <p>I am currently pursuing doctoral research at the Geneva Graduate Institute. 
-           <a href="research.html">Learn more about my research interests and projects →</a>
-        </p>
+        <img src="static/raksha.jpeg" alt="Raksha Gopal">
+        <div class="profile-content">
+            <h1>Raksha Gopal</h1>
+            <p>PhD Student at the Geneva Graduate Institute</p>
+            <div class="section">
+                <h2>About Me</h2>
+                <p>I am a PhD student at the <a href="https://www.graduateinstitute.ch/discover-institute/raksha-gopal">Geneva Graduate Institute</a>, focusing on forced displacement and migration studies. My research interests include feminist international political economy, governance (local and international), and multi-method research design.</p>
+            </div>
+        </div>
     </div>
 
     <div class="section">
         <h2>Education</h2>
         <ul>
-            <li>PhD in [Your Field], Geneva Graduate Institute (Current)</li>
-            <li>Master's in [Your Field], [University Name]</li>
-            <li>Bachelor's in [Your Field], [University Name]</li>
+            <li>PhD in International Relations/Political Science, Geneva Graduate Institute (Current)</li>
+            <li>Master's in International Relations/Political Science, Geneva Graduate Institute</li>
+            <li>Bachelor of Arts (Honours) in Political Science, University of Delhi</li>
         </ul>
     </div>
 
     <div class="section">
         <h2>Contact</h2>
-        <p>Email: your.email@graduateinstitute.ch</p>
+        <p>Email: raksha.gopal@graduateinstitute.ch</p>
         <p>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-            <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a> |
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/raksha-gopal-phd" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://twitter.com/yourhandle" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/twitter.svg" alt="Twitter" class="social-icon">
+            </a>
         </p>
     </div>
 
