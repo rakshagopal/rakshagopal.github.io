@@ -26,7 +26,7 @@ My research examines the intersections of gender, displacement, and political ec
 - Political economy of refugee settlements
 
 ### Recent Publication
-📄 ["Displaced Lives: Rethinking Survival, Social Reproduction, and (In)security with Refugees"](https://www.tandfonline.com/doi/full/10.1080/14616742.2025.2456595)  
+📄 ["Displaced Lives: Rethinking Survival, Social Reproduction, and (In)security with Refugees"](https://repository.graduateinstitute.ch/record/319929?ln=en&v=pdf) 
 Co-authored with Luisa Lupo  
 *International Feminist Journal of Politics* (2025)
 
