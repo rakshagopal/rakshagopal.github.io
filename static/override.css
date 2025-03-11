@@ -172,7 +172,7 @@ html {
     }
 }
 
-// Add this new rule for better text visibility
+/* Add this new rule for better text visibility */
 .research-topic div span.primary-color {
     color: var(--primary-color); /* Use the primary color for the dot */
 }
