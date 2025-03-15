@@ -16,7 +16,6 @@ socials = [
 ]
 
 menu = [
-    { name = "about", url = "/", weight = 10},
 ]
 
 stylesheets = [
