@@ -1,5 +1,6 @@
 +++
 title = "Hello"
+sort_by = "weight"
 
 [extra]
 photo = "raksha.jpeg"
