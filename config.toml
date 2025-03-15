@@ -6,7 +6,7 @@ title = "raksha gopal"
 toc = true
 use_cdn = false
 favicon = "/icon/favicon.png"
-theme = "toggle" # light, dark, auto, toggle
+theme = "light" # light, dark, auto, toggle
 comment = false
 
 socials = [
