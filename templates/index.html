@@ -6,12 +6,22 @@
     {% endblock title %}
     
     <div class="container">
-        <div class="text-container">
-            {{ section.content | safe }}
+        <div class="main-page-wrapper">
+            <div class="main-page">
+                <div class="photo-container">
+                    <img class="photo" src="{{ section.extra.photo }}" />
+                </div>
+                <div class="text-container">
+                    {{ section.content | safe }}
+                </div>
+            </div>
         </div>
-        <div class="photo-container">
-            <img class="photo"src="{{ section.extra.photo }}" />
-        </div>
-    
+        {% for page in section.pages %}
+            <div class="sub-page-wrapper"">
+                <div class="sub-page">
+                    {{ page.content | safe }}
+                </div>
+            </div>
+        {% endfor %}
     </div>
 {% endblock main_content %}
