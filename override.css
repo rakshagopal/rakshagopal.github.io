@@ -2,10 +2,26 @@ html {
     font-family: var(--header-font)
 }
 
+img {
+    border: none;
+}
+
 .photo {
     width: 15rem;
     filter: grayscale(100%) brightness(110%);
     border: none;
+}
+
+.page-header {
+    margin: 0;
+}
+
+.main-header {
+    margin-top: 2rem;
+}
+
+.sub-page {
+    margin-bottom: 2rem;
 }
 
 .photo:hover {
@@ -31,29 +47,12 @@ html {
 }
 
 
-.main-page-wrapper, .sub-page-wrapper {
-    width: 100%;
-    margin: auto;
-    border-radius: 10px;
-}
 
-
-.sub-page-wrapper:nth-child(odd) {
-    background-color: rgba(252, 252, 252) /* Purple */
-}
-
-.sub-page-wrapper:nth-child(even) {
-    background-color: rgba(245, 245, 245); /* Slightly darker grey */
-}
-
-.sub-page {
-    padding: 0.5rem;
-}
 
 .content {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 10vw;
     max-width: unset;
 }
 
@@ -104,6 +103,11 @@ h6::before {
     .last-updated {
         display: flex;
         margin-top: auto;
+    }
+
+    .content {
+        margin: 0 auto;
+
     }
 }
 
