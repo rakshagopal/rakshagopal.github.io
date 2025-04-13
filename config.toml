@@ -10,7 +10,7 @@ theme = "light" # light, dark, auto, toggle
 comment = false
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/gopal_raksha", icon = "twitter" },
+    { name = "orcid", url = "https://orcid.org/0009-0009-7460-5487", icon = "orcid" },
     { name = "email", url = "mailto:raksha.gopal@graduateinstitute.ch", icon = "email"},
     { name = "linkedin", url = "https://www.linkedin.com/in/raksha-gopal-phd/", icon = "linkedin"}
 ]

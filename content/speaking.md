@@ -1,9 +1,7 @@
 +++
-title = "Speaking Engagements"
+title = "Talks"
 weight = 100
 +++
-
-### Speaking Engagements
 
 #### Upcoming
 - **<span style="color: red">International Studies Association Annual Conference</span>**  

@@ -1,10 +1,7 @@
 +++
-title = "Research & Publications"
+title = "Research"
 weight = 1
 +++
-
-
-## Research & Publications
 
 ### Current Research Focus
 My research examines the intersections of gender, displacement, and political economy in South Asia, with particular emphasis on:
@@ -14,6 +11,6 @@ My research examines the intersections of gender, displacement, and political ec
 - Political economy of refugee settlements
 
 ### Recent Publication
-📄 ["Displaced Lives: Rethinking Survival, Social Reproduction, and (In)security with Refugees"](https://repository.graduateinstitute.ch/record/319929?ln=en&v=pdf) 
+- ["Displaced Lives: Rethinking Survival, Social Reproduction, and (In)security with Refugees"](https://repository.graduateinstitute.ch/record/319929?ln=en&v=pdf) 
 Co-authored with Luisa Lupo  
 *International Feminist Journal of Politics* (2025)

@@ -3,3 +3,13 @@
     {% if asset is ending_with(ext) -%}{{asset}}{% break -%}{% endif -%}
 {% endfor -%}
 {% endmacro -%}
+
+{% macro page_header(title, class="") %}
+    {% if title != "" -%}
+        <div class="page-header {{ class }}">
+            {{ title }}<span class="primary-color" style="font-size: 1.6em">.</span>
+        </div>
+    {% endif -%}
+{% endmacro content %}
+
+
