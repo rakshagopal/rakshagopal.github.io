@@ -53,7 +53,7 @@ html {
 .content {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 10vw;
     max-width: unset;
 }
 
@@ -104,6 +104,11 @@ h6::before {
     .last-updated {
         display: flex;
         margin-top: auto;
+    }
+
+    .content {
+        margin: 0 auto;
+
     }
 }
 
