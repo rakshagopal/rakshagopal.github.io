@@ -3,4 +3,6 @@ title = ""
 weight = 1
 +++
 
-<img class="separator" src="sunrise.jpeg" />
+<div class="full-width-image-wrapper">
+    <img class="full-width-image" src="sunrise.jpeg" />
+</div>
