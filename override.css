@@ -44,8 +44,24 @@ img {
     margin: auto;
 }
 
+.full-width-image-wrapper {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    overflow: hidden;
+    z-index: 0;
+}
 
-
+.full-width-image {
+    width: 100vw;
+    height: 40vh; /* adjust as needed */
+    object-fit: cover; /* this is key for cropping/zooming effect */
+    object-position: center;
+    display: block;
+}
 
 .content {
     display: flex;
