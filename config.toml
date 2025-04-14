@@ -8,6 +8,7 @@ use_cdn = false
 favicon = "/icon/favicon.png"
 theme = "light" # light, dark, auto, toggle
 comment = false
+photo = "raksha.jpeg"
 
 socials = [
     { name = "orcid", url = "https://orcid.org/0009-0009-7460-5487", icon = "orcid" },

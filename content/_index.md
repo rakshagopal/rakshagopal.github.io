@@ -1,10 +1,6 @@
 +++
 title = "Hello"
 sort_by = "weight"
-
-[extra]
-photo = "raksha.jpeg"
-resume = "resume.pdf"
 +++
 
 I am [Raksha](https://www.graduateinstitute.ch/discover-institute/raksha-gopal), a PhD candidate in International Relations and Political Science at the Geneva Graduate Institute in Switzerland. I research displacement, forced migrations, political economy, and gender in South Asia. 
