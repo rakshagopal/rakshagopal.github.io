@@ -4,11 +4,12 @@ weight = 100
 +++
 
 #### Upcoming
+
+
+#### Recent
 - **<span class="talk-title">International Studies Association Annual Conference</span>**  
   Chicago, 2025  
   *"Mothering from the Margins: Ethnographic Reflections on Gendered Insecurities among Rohingya Women in Delhi"*
-
-#### Recent
 - **<span class="talk-title">CEEISA-ISA Joint International Conference</span>**  
   Rijeka, Croatia (2024)  
   *"Mothers at the Core: Everyday Negotiations among Forcibly Displaced Refugee Women"*
